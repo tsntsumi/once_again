@@ -1,0 +1,117 @@
+Question,Option A,Option B,Option C,Correct Answer
+What is AI?,Artificial intelligence,Intelligent assistance,Intelligent agent,a
+Who created AlphaGo?,DeepMind,Google,IBM,a
+What is machine learning?,AI subfield,AI branch,AI type,a
+What is deep learning?,ML subfield,ML branch,ML type,a
+What are neural networks?,Brain-like models,Computer models,AI models,a
+What is supervised learning?,Learning with labels,Learning without labels,Learning with feedback,a
+What is unsupervised learning?,Learning without labels,Learning with labels,Learning with feedback,a
+What is reinforcement learning?,Learning with rewards,Learning with labels,Learning without labels,a
+What is data mining?,Finding patterns,Data cleaning,Data analysis,a
+What is natural language processing?,Understanding language,Generating language,Processing language,c
+What is computer vision?,Image recognition,Image processing,Image analysis,a
+What is robotics?,AI in robots,Robots with AI,Intelligent robots,a
+What is expert systems?,Rule-based AI,Knowledge-based AI,Decision-based AI,b
+What is a chatbot?,Conversational AI,AI assistant,AI agent,a
+What is bias in AI?,Unfairness in AI,Error in AI,Limitation in AI,a
+What is explainability in AI?,Understanding AI,Interpreting AI,Explaining AI,c
+What is ethics in AI?,AI morality,AI responsibility,AI fairness,c
+What is the Turing Test?,AI intelligence test,Human-AI test,AI consciousness test,a
+What is AI singularity?,Hypothetical event,AI dominance,Superintelligence,c
+What is narrow AI?,Weak AI,Limited AI,Specialized AI,c
+What is general AI?,Strong AI,Human-level AI,Artificial general intelligence,c
+What is super AI?,Transcendent AI,Superhuman AI,Advanced AI,b
+What is AI safety?,Safe AI,Ethical AI,Reliable AI,a
+What is AI research?,AI development,AI study,AI science,c
+What is AI development?,Creating AI,Building AI,Designing AI,c
+What is AI deployment?,Using AI,Implementing AI,Releasing AI,b
+What is AI impact?,AI effect,AI influence,AI consequences,c
+What is AI ethics?,Moral AI,Ethical AI,Responsible AI,b
+What is AI regulation?,Controlling AI,Governing AI,Regulating AI,c
+What is AI policy?,AI guidelines,AI rules,AI laws,c
+What is AI bias mitigation?,Reducing bias,Mitigating bias,Correcting bias,c
+What is AI transparency?,Explainable AI,Understandable AI,Visible AI,a
+What is AI accountability?,AI responsibility,AI liability,AI blame,c
+What is AI governance?,AI control,AI management,AI oversight,c
+What is AI for good?,Beneficial AI,Positive AI,Helpful AI,a
+What is AI for social good?,AI for society,AI for humanity,AI for welfare,c
+What is AI for business?,AI in business,AI for companies,AI for enterprises,a
+What is AI for healthcare?,AI in medicine,AI for patients,AI for doctors,a
+What is AI for education?,AI in learning,AI for students,AI for teachers,a
+What is AI for environment?,AI for nature,AI for sustainability,AI for climate,c
+What is AI for finance?,AI in finance,AI for banking,AI for trading,a
+What is AI for transportation?,AI in cars,AI in vehicles,AI in mobility,c
+What is AI for agriculture?,AI in farming,AI for crops,AI for food,a
+What is AI for entertainment?,AI in games,AI in movies,AI in music,a
+What is machine learning model?,ML algorithm,ML system,ML representation,a
+What is training data?,Data for training,Input data,Learning data,a
+What is a neural network layer?,Part of network,Network level,Network unit,a
+What is an algorithm?,Set of rules,Step-by-step instructions,Computational procedure,c
+What is a feature?,Data characteristic,Data attribute,Data property,b
+What is a label?,Data target,Data outcome,Data class,c
+What is prediction?,Forecasting,Foretelling,Anticipating,a
+What is accuracy?,Correctness,Precision,Reliability,a
+What is precision?,Correctness,Specificity,Positive predictive value,c
+What is recall?,Sensitivity,Completeness,Correctness,a
+What is F1-score?,Combined metric,Evaluation metric,Performance metric,c
+What is overfitting?,Model complexity,Model bias,Model variance,c
+What is underfitting?,Model simplicity,Model bias,Model variance,a
+What is bias-variance tradeoff?,Model balance,Model choice,Model tuning,a
+What is cross-validation?,Model evaluation,Model testing,Model selection,a
+What is a decision tree?,Tree-like model,Decision-making model,Classification model,a
+What is a support vector machine?,SVM,Classification algorithm,Linear model,a
+What is a random forest?,Ensemble method,Tree-based method,Machine learning model,b
+What is clustering?,Grouping data,Data segmentation,Data partitioning,a
+What is k-means?,Clustering algorithm,Partitioning algorithm,Data mining algorithm,c
+What is anomaly detection?,Finding outliers,Identifying anomalies,Detecting abnormalities,a
+What is dimensionality reduction?,Reducing features,Data simplification,Feature selection,a
+What is principal component analysis?,PCA,Dimensionality reduction,Data transformation,c
+What is natural language understanding?,NLU,Language comprehension,Language interpretation,a
+What is natural language generation?,NLG,Text generation,Language production,c
+What is sentiment analysis?,Opinion mining,Emotion analysis,Sentiment detection,a
+What is text classification?,Categorizing text,Text labeling,Text tagging,a
+What is machine translation?,Language translation,AI translation,Automated translation,c
+What is speech recognition?,Speech-to-text,Voice recognition,Audio recognition,a
+What is speech synthesis?,Text-to-speech,Voice synthesis,Speech generation,c
+What is computer vision?,Image understanding,Image analysis,Visual perception,a
+What is image classification?,Image tagging,Image categorization,Image labeling,c
+What is object detection?,Finding objects,Identifying objects,Locating objects,a
+What is image segmentation?,Separating objects,Dividing images,Extracting objects,a
+What is deep learning model?,Neural network model,Complex model,Advanced model,a
+What is convolutional neural network?,CNN,Image recognition,Deep learning,c
+What is recurrent neural network?,RNN,Sequential data,Time series,a
+What is long short-term memory?,LSTM,RNN type,Memory network,c
+What is generative adversarial network?,GAN,Generative model,Adversarial learning,a
+What is reinforcement learning agent?,Learning agent,Decision-making agent,Intelligent agent,a
+What is reward function?,Feedback signal,Performance measure,Evaluation metric,a
+What is exploration-exploitation tradeoff?,Balancing exploration,Finding balance,Decision-making,a
+What is deep reinforcement learning?,Combining RL and DL,Advanced RL,Deep learning for RL,c
+What is robotics?,AI in robots,Robot science,Robot engineering,a
+What is autonomous driving?,Self-driving cars,Driverless cars,Automated vehicles,c
+What is robotics process automation?,RPA,Automating tasks,Software automation,a
+What is artificial intelligence research?,AI development,AI science,AI study,c
+What is AI ethics?,Moral AI,Ethical AI,Responsible AI,b
+What is AI safety?,Safe AI,Ethical AI,Reliable AI,a
+What is AI bias?,Unfairness in AI,Error in AI,Limitation in AI,a
+What is AI explainability?,Understanding AI,Interpreting AI,Explaining AI,c
+What is AI transparency?,Explainable AI,Understandable AI,Visible AI,a
+What is AI accountability?,AI responsibility,AI liability,AI blame,c
+What is AI governance?,AI control,AI management,AI oversight,c
+What is AI regulation?,Controlling AI,Governing AI,Regulating AI,c
+What is AI policy?,AI guidelines,AI rules,AI laws,c
+What is AI for good?,Beneficial AI,Positive AI,Helpful AI,a
+What is AI for social good?,AI for society,AI for humanity,AI for welfare,c
+What is AI for business?,AI in business,AI for companies,AI for enterprises,a
+What is AI for healthcare?,AI in medicine,AI for patients,AI for doctors,a
+What is AI for education?,AI in learning,AI for students,AI for teachers,a
+What is AI for environment?,AI for nature,AI for sustainability,AI for climate,c
+What is AI for finance?,AI in finance,AI for banking,AI for trading,a
+What is AI for transportation?,AI in cars,AI in vehicles,AI in mobility,c
+What is AI for agriculture?,AI in farming,AI for crops,AI for food,a
+What is AI for entertainment?,AI in games,AI in movies,AI in music,a
+What is machine learning model?,ML algorithm,ML system,ML representation,a
+What is training data?,Data for training,Input data,Learning data,a
+What is a neural network layer?,Part of network,Network level,Network unit,a
+What is an algorithm?,Set of rules,Step-by-step instructions
+
+
