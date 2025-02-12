@@ -4,7 +4,7 @@ app OpenSaaS {
     version: "^0.15.0"
   },
 
-  title: "PGキャリア再生への道 | Once Again",
+  title: "PGのキャリア再生への道 | Once Again",
 
   head: [
     "<meta charset='utf-8' />",

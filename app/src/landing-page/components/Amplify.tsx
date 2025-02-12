@@ -21,49 +21,45 @@ import alizzaFace from '../../client/static/alizza-face-11.webp';
 
 export default function Amplify() {
   return (
-    <div className='relative pt-8 w-full'>
+    <section id="Amplify" className='relative'>
       <TopGradient />
       <BottomGradient />
-      <div className="w-5/6 mx-auto">
-        <div className='sm:py-8'>
-          <h2 className="text-3xl font-bold py-4" id="Amplify">
-            学ぶ機会を逃してしまうと、差が広がっていくばかり
-          </h2>
-          <div className="mx-auto">
-            <div className="flex flex-wrap sm:flex-nowrap gap-x-2">
-              <div className="order-first sm:order-last w-1/5 flex items-center mx-auto">
-                <img
-                  src={alizzaFace}
-                  alt="Alizza's note"
-                  width={960}
-                  height={1280}
-                  className="rounded-full shadow-2xl shadow-lime-700 ring-1 ring-gray-900/10"
-                />
-              </div>
-              <div className="w-full mx-auto">
-                <p className="pt-2">
-                  常に最新の技術を学んでいなければ、スキルは陳腐化し、他のエンジニアとの差が開いてしまいます。
-                </p>
-                <p className="pt-2">
-                  現在ほど、スキルを磨くことが大切な時代はありません。
-                </p>
-                <p className="pt-2">
-                  どんな大きな企業で働いていても、会社が倒産して失職する可能性はゼロではないからです。
-                  2024年には、あの「技術の日産」でさえ、危うく倒産するところでした。
-                </p>
-                <p className="pt-2">
-                  そんなときに、他のエンジニアからスキルで差をつけられていたら、再就職もままなりません。
-                </p>
-                <p className="pt-2">
-                  キャリアアップどころか、<strong className="underline decoration-wavy">
-                  キャリアエンド</strong>になってしまいかねません。
-                </p>
-              </div>
+      <div className="prose max-7-xl mx-6 md:mx-auto">
+        <h2>
+          学ぶ機会を逃してしまうと、みんなとの差が広がっていくばかり
+        </h2>
+          <div className="flex items-center justify-between flex-col sm:flex-row gap-x-4">
+            <div className="order-first sm:order-last w-1/5 -my-6 flex items-center">
+              <img
+                src={alizzaFace}
+                alt="Alizza's note"
+                width={960}
+                height={1280}
+                className="rounded-full shadow-2xl shadow-lime-700 ring-1 ring-gray-900/10"
+              />
+            </div>
+            <div>
+              <p>
+                常に最新の技術を学んでいなければ、スキルは陳腐化し、他のエンジニアとの差が開いてしまいます。
+              </p>
+              <p>
+                現在ほど、スキルを磨くことが大切な時代はありません。
+              </p>
+              <p>
+                どんな大きな企業で働いていても、会社が倒産して失職する可能性はゼロではないからです。
+                2024年には、あの「技術の日産」でさえ、危うく倒産するところでした。
+              </p>
+              <p>
+                そんなときに、他のエンジニアからスキルで差をつけられていたら、再就職もままなりません。
+              </p>
+              <p>
+                キャリアアップどころか、<strong className="underline decoration-wavy">
+                キャリアエンド</strong>になってしまいかねません。
+              </p>
             </div>
           </div>
-        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

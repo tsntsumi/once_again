@@ -20,47 +20,47 @@ import alizzaFace from '../../client/static/alizza-face-8.webp';
 
 export default function Problem() {
   return (
-    <div className='relative pt-14 w-full'>
+    <section id="Response" className='relative'>
       <TopGradient />
       <BottomGradient />
-      <div className="w-5/6 mx-auto">
-        <div className='sm:py-8'>
-          <h2 className="text-3xl font-bold py-4" id="Response">
-            今すぐ AI プログラミングを体験する
-          </h2>
-          <div className="mx-auto">
-            <div className="flex flex-wrap sm:flex-nowrap mx-auto gap-x-2">
-              <div className="order-first sm:order-last w-1/5 mx-auto flex items-center">
-                <img
-                  src={alizzaFace}
-                  alt="Alizza's note"
-                  width={960}
-                  height={1280}
-                  className="rounded-full shadow-2xl shadow-lime-700 ring-1 ring-gray-900/10"
-                />
-              </div>
-              <div className="pt-0 w-full mx-auto">
-                <p className="pt-2">
-                  今すぐ無料の AI プログラミング体験レッスンに応募してください。
-                </p>
-                <p className="pt-2">
-                  受講された方には、以下のようなチャンスが待っています。
-                </p>
-                <ul className="list-disc my-4 ml-10 ">
-                  <li>最新の技術でWebアプリを開発するスキルを獲得し、キャリアアップを実現できる</li>
-                  <li>AIエンジニアへの第一歩を踏み出すことができる</li>
-                  <li>プログラマーとしてのスキルアップを加速させることができる</li>
-                </ul>
-              </div>
-            </div>
+      <div className="prose max-7xl mx-6 md:mx-auto">
+        <h2>
+          AI プログラミングでスキルアップ
+        </h2>
+        <p>
+          今すぐ無料の AI プログラミングメール講座に応募してください。
+        </p>
+        <p>
+          受講された方には、以下のようなチャンスが待っています。
+        </p>
+        <div className="flex flex-wrap sm:flex-nowrap items-center gap-x-4">
+          <div className="order-first sm:order-last w-1/5 mx-auto -mb-4 flex items-center">
+            <img
+              src={alizzaFace}
+              alt="Alizza's note"
+              width={960}
+              height={1280}
+              className="rounded-full shadow-2xl shadow-lime-700 ring-1 ring-gray-900/10"
+            />
+          </div>
+          <div className="ml-4 my-4">
+            <ul className="leading-tight">
+              <li>最新の技術で Web アプリを開発するスキルを学び、キャリアアップを実現できる</li>
+              <li>高収入が期待できる AI エンジニアへの第一歩を踏み出すことができる</li>
+              <li>プログラマーとしてのスキルアップを加速させ、キャリアアップに繋げられる</li>
+            </ul>
           </div>
         </div>
-        <div className="pt-4 w-full mx-auto">
-          現在、準備中です。
-          準備ができ次第、募集を再開します。
+        <div className="mx-auto">
         </div>
       </div>
-    </div>
+      <div className="flex flex-nowrap items-center justify-center">
+        <a href="/login"
+           className="btn btn-primary bg-gradient-to-b from-amber-100 to-amber-400 text-black">
+          今すぐスキルアップ
+        </a>
+      </div>
+    </section>
   )
 }
 

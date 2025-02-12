@@ -20,15 +20,15 @@ export default function LandingPage() {
           <Problem />
           <Amplify />
           <Solution />
-          <Profile />
           <Testimonials testimonials={testimonials} />
+          <Profile />
           <Offer />
           <Response />
           <Features features={features} />
           <FAQ faqs={faqs} />
         </main>
-    <Footer footerNavigation={footerNavigation} />
-    </div>
+        <Footer footerNavigation={footerNavigation} />
+      </div>
     </>
   );
 }

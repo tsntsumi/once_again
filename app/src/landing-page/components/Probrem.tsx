@@ -17,62 +17,57 @@ import alizzaFace from '../../client/static/alizza-face-7.webp';
 
 export default function Problem() {
   return (
-    <div className='relative pt-8 w-full'>
+    <section id="Problem" className='relative'>
       <TopGradient />
       <BottomGradient />
-      <div className="w-5/6 mx-auto">
-        <div className='sm:py-8'>
-          <h2 className="text-3xl font-bold py-4" id="Problem">
-            <div className="inline-block text-xs w-[5em] mr-2">私たちの調査によると</div>
-            ほとんどの入社４年目のプログラマは、こんなことを悩んでいます
-          </h2>
-          <div className=" mx-auto">
-            <div className="flex flex-wrap sm:flex-nowrap mx-auto gap-x-2">
-              <div className="order-first sm:order-last w-1/5 mx-auto flex items-center">
-                <img
-                  src={alizzaFace}
-                  alt="Alizza's note"
-                  width={960}
-                  height={1280}
-                  className="rounded-full shadow-2xl shadow-lime-700 ring-1 ring-gray-900/10"
-                />
-              </div>
-              <div className="w-full mx-auto">
-                <ul className="list-disc px-4 py-1 flex flex-wrap items-around text-sm md:text-base">
-                  <li>
-                    新しい技術を学ぶ機会も時間もない、忙しい
-                  </li>
-                  <li>
-                    いつまでブラック労働が続くかわからない、体力が持たない
-                  </li>
-                  <li>
-                    枯れた技術しか使えない、上司に理解がない
-                  </li>
-                  <li>
-                    新技術を学んだところで使う機会がない、入る会社を間違えた
-                  </li>
-                  <li>
-                    このままではキャリアアップできず年収があがらない、老後が怖い
-                  </li>
-                </ul>
-                <ul className="list-['\1F4A1'] px-4 py-1 flex flex-wrap items-around text-sm font-thin">
-                  <li>
-                    <p>才能があるプログラマほど、スキルアップ、キャリアアップの機会を
-                      活かせずに悩んでいます。</p>
-                    <p>もしあなたが、スキルアップに停滞感を感じているなら、
-                      あなたにはポテンシャルがあります。</p>
-                    <p>たとえば、応用情報技術者試験の、2022年度の合格率は 25％、4人に１人程度です。</p>
-                    <p>なぜなら優秀なプログラマのところには仕事が集中し、
-                      深夜残業や休日出勤で疲弊しているため、
-                      試験日に受験できないのが原因だといわれています。</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      <div className='prose max-7xl mx-6 md:mx-auto'>
+        <h2>
+          <div className="inline-block text-xs w-[5em] mr-2">私たちの調査によると</div>
+          ほとんどの入社４年目のプログラマは、こんなことを悩んでいます
+        </h2>
+        <div className="flex flex-col items-center justify-between sm:flex-row gap-x-4">
+          <div className="order-first sm:order-last w-1/5 -my-6 flex items-center">
+            <img
+              src={alizzaFace}
+              alt="Alizza's note"
+              width={960}
+              height={1280}
+              className="rounded-full shadow-2xl shadow-lime-700 ring-1 ring-gray-900/10"
+            />
+          </div>
+          <div>
+            <ul className="list-disc px-4 py-1 flex flex-wrap items-around text-sm md:text-base">
+              <li>
+                新しい技術を学ぶ機会も時間もない、忙しい
+              </li>
+              <li>
+                いつまでブラック労働が続くかわからない、体力が持たない
+              </li>
+              <li>
+                枯れた技術しか使えない、上司に理解がない
+              </li>
+              <li>
+                新技術を学んだところで使う機会がない、入る会社を間違えた
+              </li>
+              <li>
+                このままではキャリアアップできず年収があがらない、老後が怖い
+              </li>
+            </ul>
           </div>
         </div>
+
+        <ul className="list-none px-4 py-2 text-sm rounded-lg bg-gray-700/30">
+          <li className="list-['\1F4A1'] indent-1">
+            才能があるプログラマほど、スキルアップ、キャリアアップの機会を
+            活かせずに悩んでいます。</li>
+          <li>優秀なプログラマほど、仕事が集中してしまうからです。
+            自分のための時間が作れず、疲弊して、消耗しています。
+          </li>
+          <li>スキルアップに停滞感を感じているなら、大丈夫。
+            あなたには伸びしろがあります。</li>
+        </ul>
       </div>
-    </div>
+    </section>
   )
 }
 

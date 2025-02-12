@@ -13,7 +13,7 @@ import DarkModeSwitcher from '../DarkModeSwitcher';
 import { useIsLandingPage } from '../../hooks/useIsLandingPage';
 import { cn } from '../../cn';
 
-const YourSaaS = 'Once Again'
+const YourSaaS = "Once Again | The Path to Rebirth of PG's Career"
 
 export interface NavigationItem {
   name: string;
@@ -31,10 +31,10 @@ export default function AppNavBar({ navigationItems }: { navigationItems: Naviga
     <header
       className={cn('absolute inset-x-0 top-0 z-50 ', {
         'shadow sticky bg-white bg-opacity-50 backdrop-blur-lg backdrop-filter dark:border dark:border-gray-100/10':
-          !isLandingPage,
+        !isLandingPage,
       })}
     >
-      <nav className='flex items-center justify-between p-6 lg:px-8' aria-label='Global'>
+      <nav className='flex items-center justify-between p-3 lg:px-8' aria-label='Global'>
         <div className='flex items-center lg:flex-1'>
           <WaspRouterLink
             to={routes.LandingPageRoute.to}
@@ -42,14 +42,14 @@ export default function AppNavBar({ navigationItems }: { navigationItems: Naviga
           >
             <NavLogo />
             {isLandingPage && (
-              <span className='ml-2 text-sm font-semibold leading-6 dark:text-white'>{YourSaaS}</span>
+              <span className='ml-2 text-sm font-semibold leading-6 dark:text-white whitespace-nowrap md:mr-[3em] max-w-60 2xsm:max-w-70 md:max-w-90 truncate'>{YourSaaS}</span>
             )}
           </WaspRouterLink>
         </div>
         <div className='flex lg:hidden'>
           <button
             type='button'
-            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-white'
+            className='inline-flex items-center justify-center rounded-md p-2.5 text-gray-700 dark:text-white'
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className='sr-only'>Open main menu</span>
