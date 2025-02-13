@@ -10,7 +10,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [
     starlight({
-      title: 'Once Again',
+      title: "Once Again | PGキャリアの再生の道",
       customCss: ['./src/styles/tailwind.css'],
       description: 'Documentation for our service.',
       logo: {
