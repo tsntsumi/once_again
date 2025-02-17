@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "app/.wasp/build/web-app/build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -48,7 +48,7 @@ export const calculateDailyStats: DailyStatsJob<never, void> = async (_args, con
         totalRevenue = await fetchTotalStripeRevenue();
         break;
       case 'lemonsqueezy':
-        totalRevenue = 0; // await fetchTotalLemonSqueezyRevenue();
+        totalRevenue = 0;
         break;
       default:
         throw new Error(`Unsupported payment processor: ${paymentProcessor.id}`);
@@ -162,39 +162,4 @@ async function fetchTotalStripeRevenue() {
 
   // Revenue is in cents so we convert to dollars (or your main currency unit)
   return totalRevenue / 100;
-}
-
-async function fetchTotalLemonSqueezyRevenue() {
-  try {
-    let totalRevenue = 0;
-    let hasNextPage = true;
-    let currentPage = 1;
-
-    while (hasNextPage) {
-      const { data: response } = await listOrders({
-        filter: {
-          storeId: process.env.LEMONSQUEEZY_STORE_ID,
-        },
-        page: {
-          number: currentPage,
-          size: 100,
-        },
-      });
-
-      if (response?.data) {
-        for (const order of response.data) {
-          totalRevenue += order.attributes.total;
-        }
-      }
-
-      hasNextPage = !response?.meta?.page.lastPage;
-      currentPage++;
-    }
-
-    // Revenue is in cents so we convert to dollars (or your main currency unit)
-    return totalRevenue / 100;
-  } catch (error) {
-    console.error('Error fetching Lemon Squeezy revenue:', error);
-    throw error;
-  }
 }
